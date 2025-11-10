@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Bienvenido a mi sitio web</h1>
+        <!-- Aquí aparecerá el nombre del usuario -->
+        <h2 id="nombreUsuario"></h2>
+    </header>
+
+    <main>
+        <p>En esta página encontrarás tres secciones:</p>
+        <ul>
+            <li><strong>Página Actual:</strong> Este es el index donde podrás dirigirte a las páginas 2 y 3.</li>
+            <li><strong>Página 2:</strong> Una galería de imágenes donde además puedes colocar tu edad.</li>
+            <li><strong>Página 3:</strong> Un lugar donde podrás hacer cálculos matemáticos simples 😊.</li>
+        </ul>
+
+        <div class="botones">
+            <button onclick="location.href='pagina1.html'">Ir a Página 1</button>
+            <button onclick="location.href='pagina2.html'">Ir a Página 2</button>
+        </div>
+
+        <p id="mensaje"></p>
+    </main>
+
+    <!-- Footer con todos los derechos reservados -->
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Operaciones Matemáticas Interactivas</h1>
+    </header>
+
+    <main>
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th class="encabezado">OPERACIÓN</th>
+                    <th class="encabezado">DESCRIPCIÓN</th>
+                    <th class="encabezado">BOTONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MULTIPLICACIÓN</td>
+                    <td>Multiplica 2 números ingresados</td>
+                    <td><button onclick="multiplicar()">JS Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>EXPONENTE 2</td>
+                    <td>Eleva al cuadrado 1 número ingresado</td>
+                    <td><button onclick="exponente()">JS Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>RESTA</td>
+                    <td>Resta 2 números ingresados</td>
+                    <td><button onclick="restar()">JS Calcular</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="resultado">Resultado: </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="botones">
+            <button onclick="location.href='index.html'">Ir a Página Principal</button>
+            <button onclick="location.href='pagina1.html'">Ir a Página 1</button>
+        </div>
+    </main>
+
+    <!-- Footer con todos los derechos reservados -->
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="pagina2.js"></script>
+
+</body>
+</html>
